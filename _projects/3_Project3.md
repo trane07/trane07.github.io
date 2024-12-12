@@ -21,7 +21,19 @@ We can use a vegachart HTML tag like so:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/interactComArea.json)" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/interactComArea.json" style="width: 100%"></vegachart>
+
+<br>
+
+## **Contextual Visualizations**
+
+#### Top Communities by Total KWH Usage
+![Top Communities by Total KWH Usage](/assets/pngs/proj3kwh.png)
+
+<br>
+
+#### Geographical Distribution of Buildings in Chicago by Sector 
+![Geographical Distribution of Buildings in Chicago by Sector](/assets/pngs/proj3map.png)
 
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
