@@ -1,6 +1,6 @@
 ---
 name: Project 3
-tools: [Python, HTML, vega-lite]
+tools: [Python, HTML, vega-lite, Altair]
 image: assets/pngs/cars.png
 description: This is our group project "title"
 custom_js:
@@ -11,17 +11,10 @@ custom_js:
 ---
 
 
-# title: ...
+# Understanding Chicago Energy Usage, by Buildings
+##### ***Group: Liz Tran, Samantha Sy, Kevin Cervantes, Shawn Huang***
 
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
-
-We can use a vegachart HTML tag like so:
-
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-```
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/interactComArea.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/proj3inter.json" style="width: 100%"></vegachart>
 
 <br>
 
