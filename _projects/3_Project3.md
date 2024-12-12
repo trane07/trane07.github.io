@@ -1,7 +1,7 @@
 ---
 name: Project 3
 tools: [Python, HTML, vega-lite, Altair]
-image: assets/pngs/proj3.png
+image: assets/pngs/chicago.png
 description: This group project seeks to help understand energy usage in Chicago, based on building type. 
 custom_js:
   - vega.min
