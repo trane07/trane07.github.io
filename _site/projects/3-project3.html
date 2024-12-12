@@ -75,59 +75,62 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="understanding-chicago-energy-usage-by-buildings">Understanding Chicago Energy Usage, by Buildings</h1>
-<h5 id="group-liz-tran-samantha-sy-kevin-cervantes-shawn-huang"><strong><em>Group: Liz Tran, Samantha Sy, Kevin Cervantes, Shawn Huang</em></strong></h5>
+  <h1 id="who-is-using-all-the-energy-in-chicago-in-2010">Who is Using all the Energy in Chicago in 2010?</h1>
+<p><em>by Liz Tran, Samantha Sy, Kevin Cervantes, Shawn Huang</em></p>
+
+<p>In 2010, there was a total of 124,888,607 kWh (kilowatt) of electrical energy and 16,811,616 thermal energy used in Chicago. This was a <strong>collective 141,700,223 total</strong> in units of energy combined, with kilowatts being <em>more than triple the amount of thermal energy</em>! The data was collected between commercial and residential buildings within Chicago across different community areas. Below is an interactive visualization to help understand what buildings used collectively throughout the year in both thermal energy and electricity, as well as a look into our analysis for it.</p>
 
 <vegachart schema-url="/assets/json/proj3inter.json" style="width: 100%"></vegachart>
 
 <!-- the data & methods -->
 <div class="right">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/trane07/trane07.github.io/blob/main/python_notebooks/project3interact.ipynb">
-  The Analysis
+  Vis Analysis
 </a>
 </div>
 
 <p><br /></p>
 
-<h2 id="contextual-visualizations"><strong>Contextual Visualizations</strong></h2>
+<!-- ## **Contextual Visualizations** -->
 
-<h4 id="top-communities-by-total-kwh-usage">Top Communities by Total KWH Usage</h4>
+<p>To fully understand energy usage, both community areas and building types were considered, as commercial buildings tended to have higher energy usage than a majority of the residential buildings. At the same time, there are more residential buildings than commercial ones. But where exactly were these buildings located? Thus, another question at large is…</p>
+
+<h4 id="how-are-buildings-distributed-in-chicago">How are buildings distributed in Chicago?</h4>
+<p><img src="/assets/pngs/proj3map.png" alt="Geographical Distribution of Buildings in Chicago by Sector" /></p>
+
+<!-- the data & methods -->
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/trane07/trane07.github.io/blob/main/python_notebooks/IS_445_3_1_Project.ipynb">
+  Vis Analysis
+</a>
+</div>
+<p><strong>Behind the Visualization:</strong> 
+<em>Using a color-coded dot map, this visualization displays the geographical distribution of buildings in Chicago by sector. Each dot represents a building, and the colors distinguish different sectors: blue for residential, red for commercial, green for municipal, and light blue for other types. The map is based on a geographic layout of Chicago, with the Lake Michigan shoreline visible on the right side. This distribution shows a high concentration of residential buildings (blue dots) across the city. In contrast, commercial (red dots) and municipal buildings (green dots) are more clustered in specific areas, likely reflecting commercial hubs and government facilities.</em> 
+<br /></p>
+
+<p>According to the visualization, residential areas tended to be sprawled across the city, in higher numbers than commercial buildings by far, which were usually together in clusters. Now that we have a greater understanding of the geographical distribution of buildings, we must now know which areas of Chicago contributed the most to the high energy usage. So…</p>
+
+<h4 id="what-are-some-communities-involved">What are some communities involved?</h4>
 <p><img src="/assets/pngs/proj3kwh.png" alt="Top Communities by Total KWH Usage" /></p>
 
 <!-- the data & methods -->
 <div class="right">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/trane07/trane07.github.io/blob/main/python_notebooks/context2.ipynb">
-  The Analysis
+  Vis Analysis
 </a>
 </div>
 
-<p><br /></p>
+<p>The data presented shows that <strong>Near North Side</strong> by far had the highest counts of kWh usage compared to other areas in Chicago. A large part of this pertains to multi-story buildings, with 7 or more floors, followed by commercial buildings. This holds true for other communities as well.</p>
 
-<h4 id="geographical-distribution-of-buildings-in-chicago-by-sector">Geographical Distribution of Buildings in Chicago by Sector</h4>
-<p><img src="/assets/pngs/proj3map.png" alt="Geographical Distribution of Buildings in Chicago by Sector" /></p>
+<p>Overall, the findings show that in 2010, energy usage in Chicago mostly consisted of electrical energy, measured in kilowatts, by both commercial and residential buildings. Though residential buildings were higher in count, commercial buildings tended to be higher in energy usage overall. This was moreso true in regions such as Near North Side and Lakeview, where both commercial and multi-story buildings of over 7 floors had the highest kWh usage compared to other building types.<br />
+<br /></p>
 
-<!-- the data & methods -->
-<div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
-  The Data
-</a>
-</div>
-
-<div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
-  The Analysis
-</a>
-</div>
-
-<h2 id="the-main-dataset">The Main Dataset</h2>
-
-<!-- these are written in a combo of html and liquid -->
-
-<div class="center">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
-  Main Data
-</a>
-</div>
+<h2 id="references"><strong>References</strong></h2>
+<ul>
+  <li><a href="https://data.cityofchicago.org/Environment-Sustainable-Development/Energy-Usage-2010/8yq3-m6wp/about_data">The Main Data: Chicago’s Energy Usage 2010</a></li>
+  <li><a href="https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking-Covered-Buildings/g5i5-yz37/about_data">The Contextual Data: Chicago Energy Benchmark</a>
+<br /></li>
+</ul>
 
 
 </div>
