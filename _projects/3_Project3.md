@@ -16,6 +16,8 @@ custom_js:
 
 In 2010, there was a total of 124,888,607 kWh (kilowatt) of electrical energy and 16,811,616 thermal energy used in Chicago. This was a **collective 141,700,223 total** in units of energy combined, with kilowatts being *more than triple the amount of thermal energy*! The data was collected between commercial and residential buildings within Chicago across different community areas. Below is an interactive visualization to help understand what buildings used collectively throughout the year in both thermal energy and electricity, as well as a look into our analysis for it. 
 
+*Click on different points to see the exact usage and building type.* 
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/proj3inter.json" style="width: 100%"></vegachart>
 
 <!-- the data & methods -->
@@ -44,16 +46,25 @@ To fully understand energy usage, both community areas and building types were c
 According to the visualization, residential areas tended to be sprawled across the city, in higher numbers than commercial buildings by far, which were usually together in clusters. Now that we have a greater understanding of the geographical distribution of buildings, we must now know which areas of Chicago contributed the most to the high energy usage. So... 
 
 #### What are some communities involved? 
+
+In 2010, the top communities with energy usage differed depending on thermal energy and kilowatt. 
+
+##### **For kWh:**
 ![Top Communities by Total KWH Usage](/assets/pngs/proj3kwh.png)
+
+
+##### **For Thermal Energy:**
+![Top Communities by Total THERMAL Usage](/assets/pngs/proj3therms.png)
+
 
 <!-- the data & methods -->
 <div class="right">
 {% include elements/button.html link="https://github.com/trane07/trane07.github.io/blob/main/python_notebooks/context2.ipynb" text="Vis Analysis" %}
 </div>
 
-The data presented shows that **Near North Side** by far had the highest counts of kWh usage compared to other areas in Chicago. A large part of this pertains to multi-story buildings, with 7 or more floors, followed by commercial buildings. This holds true for other communities as well. 
+The data presented shows that top communities differed in usage in 2010. For electrical energy (kWh), **Near North Side** by far had the highest counts of compared to other areas in Chicago, followed by **Lakeview** . On the other hand, **Lakeview** had the highest thermal energy usage, followed by **Uptown**. In both cases, ***Lakeview was among the top communities with energy usage***. One thing that remained consistent with both graphs is that a large portion of energy usage pertained to multi-story buildings, with 7 or more floors, followed by commercial buildings, except for Uptown with no commercial buildings. 
 
-Overall, the findings show that in 2010, energy usage in Chicago mostly consisted of electrical energy, measured in kilowatts, by both commercial and residential buildings. Though residential buildings were higher in count, commercial buildings tended to be higher in energy usage overall. This was moreso true in regions such as Near North Side and Lakeview, where both commercial and multi-story buildings of over 7 floors had the highest kWh usage compared to other building types.  
+Overall, the findings show that in 2010, energy usage in Chicago mostly consisted of electrical energy, measured in kilowatts, by both commercial and residential buildings. Though residential buildings were higher in count, commercial buildings tended to be higher in energy usage overall. This was moreso true in regions such as Lakeview, where both commercial and multi-story buildings of over 7 floors had the highest total energy usage compared to other building types.  
 <br>
 
 ## **References**
