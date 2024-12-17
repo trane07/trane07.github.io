@@ -16,13 +16,13 @@ custom_js:
 
 In 2010, there was a total of 124,888,607 kWh (kilowatt) of electrical energy and 16,811,616 thermal energy used in Chicago. This was a **collective 141,700,223 total** in units of energy combined, with kilowatts being *more than triple the amount of thermal energy*! The data was collected between commercial and residential buildings within Chicago across different community areas. Below is an interactive visualization to help understand what buildings used collectively throughout the year in both thermal energy and electricity, as well as a look into our analysis for it. 
 
-*Click on different points to see the exact usage and building type.* 
+*Use the dropdown to compare the different building types. Hovering specific points give more information about that point.* 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/proj3inter.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/proj3interact.json" style="width: 100%"></vegachart>
 
 <!-- the data & methods -->
 <div class="right">
-{% include elements/button.html link="https://github.com/trane07/trane07.github.io/blob/main/python_notebooks/project3interact.ipynb" text="Vis Analysis" %}
+{% include elements/button.html link="https://github.com/trane07/trane07.github.io/blob/main/python_notebooks/project3interact_UPDATED.ipynb" text="Vis Analysis" %}
 </div>
 
 <br>
